@@ -7,3 +7,9 @@ data/local/*
 outputs/*
 !outputs/.gitkeep
 *.parquet
+
+# Local environments and verification outputs
+.venv/
+__pycache__/
+.pytest_cache/
+.reproduction/
